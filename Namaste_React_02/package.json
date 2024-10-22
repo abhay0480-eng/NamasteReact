@@ -2,6 +2,8 @@
   "name": "namaste_react_02",
   "version": "1.0.0",
   "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "author": "abhay",
