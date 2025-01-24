@@ -1,0 +1,38 @@
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.progress-bar {
+  height: 4px;
+  background: #007bff;
+  transition: width 0.3s ease;
+}
+
+.step {
+  margin: 20px 0;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.navigation {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}

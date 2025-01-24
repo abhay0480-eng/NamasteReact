@@ -36,10 +36,10 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    
     if(validate()){
       console.log("formData", formData);
     }
-
   }
 
   console.log(errors);

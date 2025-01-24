@@ -1,0 +1,35 @@
+.board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+.tasks {
+  min-height: 200px;
+  margin: 10px 0;
+}
+
+.task {
+  background: white;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: move;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.task:active {
+  opacity: 0.5;
+}
+
+.add-task input {
+  margin-right: 5px;
+}
