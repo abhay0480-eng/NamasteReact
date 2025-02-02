@@ -63,7 +63,7 @@ function App() {
     <>
     <div className='flex justify-center items-center p-5'>
       <div className='w-96 relative'>
-        <input type='text'  placeholder='Search Todo...' onChange={(e) => setSearchQuery(e.target.value)} /> 
+        <input type='search'  placeholder='Search Todo...' onChange={(e) => setSearchQuery(e.target.value)} /> 
         {(searchQuery && searchResults.length>0) && <div className='absolute top-10 overflow-y-scroll max-h-96 bg-white p-3 min-w-96 z-20 shadow-lg rounded-md '>
               {searchResults.map((item,index) => {
                 return(

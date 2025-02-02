@@ -6,7 +6,6 @@ const products = [
   { id: 2, name: 'Headphones', price: 149, stock: 10 },
   { id: 3, name: 'Mouse', price: 29, stock: 20 },
 ];
-
 // Reducer logic
 const cartReducer = (state, action) => {
   switch (action.type) {
@@ -35,6 +34,7 @@ const cartReducer = (state, action) => {
         items: state.items.filter(i => i.id !== action.payload),
       };
 
+      
     case 'UPDATE_QUANTITY': {
       const { id, quantity } = action.payload;
       const updatedItems = state.items.map(item =>
